@@ -3,6 +3,7 @@ node_js: "6.5.0"
 services: mongodb
 before_script:
   - npm install
+  - npm install -g selenium-standalone
   - node index.js &
   - selenium-standalone start &
 script:
