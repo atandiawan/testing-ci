@@ -6,7 +6,6 @@ let http = require('http')
 let chaiHttp = require('chai-http')
 let Article = require('../../models/articles.js')
 
-
 chai.use(chaiHttp)
 
 let getArticleByTitle = function(title,callback){
